@@ -1,0 +1,39 @@
+﻿@using _01_Weekly_Task.ViewModel;
+
+@{
+    ViewData["Title"] = "Index";
+}
+@model List<EmployeeInfoViewModel>
+<h2>Personel Bilgileri</h2>
+<hr />
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>Adı</td>
+            <td>Soyadı</td>
+            <td>Ünvanı</td>
+            <td>Doğum Tarihi</td>
+            <td>Tel</td>
+            <td>Adres</td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Title</td>
+                <td>@item.BirthDate</td>
+                <td>@item.HomePhone</td>
+                <td>@item.Address</td>
+                <td>
+                    <a class="btn btn-outline-primary" asp-controller="employees" asp-action="edit" asp-route-id="@item.EmployeeId">Güncelle</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

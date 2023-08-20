@@ -1,0 +1,25 @@
+﻿@using _01_Weekly_Task.ViewModel;
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+@model List<OrderDetailsViewModel>
+<h2>Sipariş Detayları  Sipariş No: @ViewBag.OrderId</h2>
+<table class ="table table-hover">
+    <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Miktar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var orderDetail in Model)
+        {
+            <tr>
+                <td>@orderDetail.ProductName</td>
+                <td>@orderDetail.Quantity</td>
+            </tr>
+        }
+    </tbody>
+</table>

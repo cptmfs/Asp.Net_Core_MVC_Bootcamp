@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IEnumerable<Employee>
+
+<h2>Personel Listesi</h2>
+<hr />
+
+<table class="table table-hover">
+   <thead>
+       <tr>
+           <td>Adı</td>
+           <td>Soyadı</td>
+           <td>Ünvanı</td>
+           <td></td>
+       </tr>
+   </thead>
+   <tbody>
+       @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Title</td>
+                <td>
+                    <a class="btn btn-outline-primary" asp-controller="home" asp-action="orders" asp-route-id="@item.EmployeeId">Siparişler</a>
+                    <a class="btn btn-outline-success" asp-controller="employees" asp-action="Index" asp-route-id="@item.EmployeeId">Profilim</a>
+                </td>
+            </tr>
+        }
+       
+   </tbody>
+</table>

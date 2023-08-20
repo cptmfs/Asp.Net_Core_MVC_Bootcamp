@@ -1,0 +1,33 @@
+﻿@using _01_Weekly_Task.ViewModel;
+
+@{
+    ViewData["Title"] = "Orders";
+}
+@model List<OrderWithEmployeeViewModel>
+<h2>Siparişler</h2>
+<hr />
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>Sipariş No</td>
+            <td>Sipariş Tarihi</td>
+            <td>Müşteri Adı</td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.OrderId</td>
+                <td>@item.OrderDate</td>
+                <td>@item.EmployeeName</td>
+                <td>
+                    <a class="btn btn-outline-primary" asp-controller="home" asp-action="products" asp-route-orderId="@item.OrderId">Ürünler</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
