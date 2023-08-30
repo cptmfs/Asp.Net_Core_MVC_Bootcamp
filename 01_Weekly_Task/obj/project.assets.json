@@ -11282,11 +11282,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KAPTAN\\source\\repos\\Asp.Net_Core_MVC_Bootcamp\\01_Weekly_Task\\01_Weekly_Task.csproj",
+      "projectUniqueName": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\01_Weekly_Task\\01_Weekly_Task.csproj",
       "projectName": "01_Weekly_Task",
-      "projectPath": "C:\\Users\\KAPTAN\\source\\repos\\Asp.Net_Core_MVC_Bootcamp\\01_Weekly_Task\\01_Weekly_Task.csproj",
+      "projectPath": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\01_Weekly_Task\\01_Weekly_Task.csproj",
       "packagesPath": "C:\\Users\\KAPTAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KAPTAN\\source\\repos\\Asp.Net_Core_MVC_Bootcamp\\01_Weekly_Task\\obj\\",
+      "outputPath": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\01_Weekly_Task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KAPTAN\\AppData\\Roaming\\NuGet\\NuGet.Config",

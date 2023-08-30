@@ -1,0 +1,56 @@
+﻿@using Graduation_Project.ViewModels;
+@model IEnumerable<ProductViewModel>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col mb-3">
+            <div class="card">
+                <img src="~/images/@item.ProductImage" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        @item.Name
+                    </h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted product-price">
+                        <i class="fa fa-try" aria-hidden="true"></i>
+                       Fiyat :  @item.Price ₺
+                    </small>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("user"))
+                    { <form asp-controller="Cart" asp-action="AddToCart"  method="post">
+                        <input type="hidden" name="productId" value="@item.Id" />
+                        <input type="number" name="quantity" value="1" min="1" /> <!-- Quantity input -->
+
+                        <button type="submit" class="btn btn-primary btn-sm float-end add-to-cart-button">
+                            <i class="fas fa-angle-double-right"></i>
+                            Ekle
+                        </button>                    
+                    </form>
+                    <div class="add-to-cart-alert-container">
+                        <div class="alert alert-success add-to-cart-alert" role="alert">
+                            <i class="bi bi-exclamation-circle-fill"></i>
+                            Ürün sepete eklendi
+                        </div>
+                    </div>
+                    }
+                    else if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+                    {
+                        <a class="btn btn-warning btn-xs" asp-controller="Product" asp-action="UpdateProduct" asp-route-id="@item.Id">Düzenle</a>
+
+                        <form asp-controller="Product" asp-action="RemoveProduct" method="post">
+                            <input type="hidden" name="productId" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger btn-xs">
+                                <i class="fas fa-angle-double-right"></i>
+                                Sil
+                            </button>
+                        </form>
+                    }
+                   
+                </div>              
+            </div>
+        </div>
+    }
+</div>
+
+
+

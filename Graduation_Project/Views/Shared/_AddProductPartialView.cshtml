@@ -1,0 +1,36 @@
+﻿@using DTO;
+@model List<CartDto>
+@{
+	double totalPrice = 0;
+}
+
+
+
+@foreach (var item in Model)
+{
+
+	totalPrice += (item.Quantity * item.Price);
+	<tr>
+		<td><img src="~/images/@item.ProductImage" width="100px" /></td>
+
+		<td>@item.ProductName</td>
+		<td>@item.Price</td>
+		<td>@item.Quantity</td>
+		<td>
+			₺ @(item.Quantity * item.Price)
+		</td>
+		<td>
+			<form asp-controller="Cart" asp-action="RemoveFromCart" method="post">
+				<input type="hidden" name="productId" value="@item.ProductId" />
+				<button type="submit" class="btn btn-danger">Sil</button>
+			</form>
+		</td>
+	</tr>
+}
+
+
+
+
+
+
+

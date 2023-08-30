@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pCmOvkMC2W4iJw27N/7M4Lb2NshQeN4UFg8JRIBhEA+QiQRW8DgElQ/jkbxcnPPpBIhWWkNkGzvbr3Ei/YMY8g==",
+  "dgSpecHash": "JrTZ0XMehOUfyL/ONQGrmv9oVKO3hNwpWcfiUNUkYVecJ+Z4ZHMW7vT+J2QL71Nlm4BfoS+NyPan5KijxgCQpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KAPTAN\\source\\repos\\Asp.Net_Core_MVC_Bootcamp\\01_Weekly_Task\\01_Weekly_Task.csproj",
+  "projectFilePath": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\01_Weekly_Task\\01_Weekly_Task.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KAPTAN\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\KAPTAN\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

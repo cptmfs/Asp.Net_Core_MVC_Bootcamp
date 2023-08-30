@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Graduation_Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Graduation_Project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\1.png",
+      "PackagePath": "staticwebassets\\Images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\280159dd-430e-431b-80ae-1ed2b5ef2828.jpg",
+      "PackagePath": "staticwebassets\\Images\\280159dd-430e-431b-80ae-1ed2b5ef2828.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\3be4ed91-e969-47b7-8c67-69d2bc456598.jpg",
+      "PackagePath": "staticwebassets\\Images\\3be4ed91-e969-47b7-8c67-69d2bc456598.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\bebekbezi.jpg",
+      "PackagePath": "staticwebassets\\Images\\bebekbezi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\cif.jpg",
+      "PackagePath": "staticwebassets\\Images\\cif.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\cilek.jpg",
+      "PackagePath": "staticwebassets\\Images\\cilek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\corba.jpg",
+      "PackagePath": "staticwebassets\\Images\\corba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\d8ceeee0-07bd-4672-bc45-0e4472cf5af1.jpg",
+      "PackagePath": "staticwebassets\\Images\\d8ceeee0-07bd-4672-bc45-0e4472cf5af1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\dedorant.jpg",
+      "PackagePath": "staticwebassets\\Images\\dedorant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\domestos.jpg",
+      "PackagePath": "staticwebassets\\Images\\domestos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\helva.jpg",
+      "PackagePath": "staticwebassets\\Images\\helva.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\kola.jpg",
+      "PackagePath": "staticwebassets\\Images\\kola.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\kıyma.jpg",
+      "PackagePath": "staticwebassets\\Images\\kıyma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\makarna.jpg",
+      "PackagePath": "staticwebassets\\Images\\makarna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\muz.jpg",
+      "PackagePath": "staticwebassets\\Images\\muz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\patates.jpg",
+      "PackagePath": "staticwebassets\\Images\\patates.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\peynir.jpg",
+      "PackagePath": "staticwebassets\\Images\\peynir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\pirinc.jpg",
+      "PackagePath": "staticwebassets\\Images\\pirinc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\salgam.jpg",
+      "PackagePath": "staticwebassets\\Images\\salgam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\sogan.jpg",
+      "PackagePath": "staticwebassets\\Images\\sogan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\tavuk.jpg",
+      "PackagePath": "staticwebassets\\Images\\tavuk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\tursu.jpg",
+      "PackagePath": "staticwebassets\\Images\\tursu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\tuvaletkagidi.jpg",
+      "PackagePath": "staticwebassets\\Images\\tuvaletkagidi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\yarisarabasi.jpg",
+      "PackagePath": "staticwebassets\\Images\\yarisarabasi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\zeytin.jpg",
+      "PackagePath": "staticwebassets\\Images\\zeytin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\css\\popuo-box.css",
+      "PackagePath": "staticwebassets\\register\\css\\popuo-box.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\css\\style.css",
+      "PackagePath": "staticwebassets\\register\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\images\\b2.jpg",
+      "PackagePath": "staticwebassets\\register\\images\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\images\\e-mail.png",
+      "PackagePath": "staticwebassets\\register\\images\\e-mail.png"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\images\\password.png",
+      "PackagePath": "staticwebassets\\register\\images\\password.png"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\images\\tick.png",
+      "PackagePath": "staticwebassets\\register\\images\\tick.png"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\images\\user.png",
+      "PackagePath": "staticwebassets\\register\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\index.html",
+      "PackagePath": "staticwebassets\\register\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\js\\jquery-2.1.4.min.js",
+      "PackagePath": "staticwebassets\\register\\js\\jquery-2.1.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\register\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\register\\w3layouts-License.txt",
+      "PackagePath": "staticwebassets\\register\\w3layouts-License.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Graduation_Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Graduation_Project.props",
+      "PackagePath": "build\\Graduation_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Graduation_Project.props",
+      "PackagePath": "buildMultiTargeting\\Graduation_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Graduation_Project.props",
+      "PackagePath": "buildTransitive\\Graduation_Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
