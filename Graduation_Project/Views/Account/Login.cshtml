@@ -32,11 +32,16 @@
 <body>
 
 	<h1>Shopping Cart Giriş Formu</h1>
-
+	@if (TempData["Error"] != null)
+	{
+		<div class="col-md-12 alert alert-danger">
+			<span><b>Sorry!</b> - @TempData["Error"] </span>
+		</div>
+	}
 	<div class="w3layoutscontaineragileits">
 		<h2>Shopping Cart</h2>
 		<form method="post">
-			<input type="text" asp-for="Username" placeholder="Kullanıcı Adınız" required="">
+			<input type="text" asp-for="Email" placeholder="Email Adresiniz" required="">
 			<input type="password" asp-for="Password" placeholder="Şifreniz" required="">
 			<br /><br />
 			<ul class="agileinfotickwthree">
@@ -48,7 +53,7 @@
 			</ul>
 			<div class="aitssendbuttonw3ls">
 				<input type="submit" value="Giriş Yap">
-				<p> Ana Sayfaya Dön <span>→</span> <a class="w3_play_icon1" asp-action="Index" asp-controller="Home"> Shopping Cart</a></p>
+				<p> Ana Sayfaya Dön <span>→</span><a class="w3_play_icon1" asp-controller="Home" asp-action="Index">Shopping Cart</a> </p>
 				<div class="clear"></div>
 			</div>
 		</form>
@@ -63,22 +68,7 @@
 	<!-- pop-up-box-js-file -->
 	<script src="~/register/js/jquery.magnific-popup.js"></script>
 	<!--//pop-up-box-js-file -->
-	<script>
-		$(document).ready(function () {
-			$('.w3_play_icon,.w3_play_icon1,.w3_play_icon2').magnificPopup({
-				type: 'inline',
-				fixedContentPos: false,
-				fixedBgPos: true,
-				overflowY: 'auto',
-				closeBtnInside: true,
-				preloader: false,
-				midClick: true,
-				removalDelay: 300,
-				mainClass: 'my-mfp-zoom-in'
-			});
 
-		});
-	</script>
 
 </body>
 <!-- //Body -->

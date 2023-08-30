@@ -29,12 +29,23 @@ namespace Graduation_Project.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
-            var result = await _signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password, false, false);
-            if (result.Succeeded)
+			var user = await _userManager.FindByEmailAsync(loginViewModel.Email);
+            if (user != null)  // herhangi bir kayıt varsa
             {
-                return RedirectToAction("Index", "Home");
-            }
-            return View();
+                var passwordCheck = await _userManager.CheckPasswordAsync(user, loginViewModel.Password);
+                if (passwordCheck) // Password de uygunsa 
+                {
+                    var result = await _signInManager.PasswordSignInAsync(user, loginViewModel.Password, false, false);
+					if (result.Succeeded)
+					{
+						return RedirectToAction("Index", "Home");
+					}
+				}
+				TempData["Error"] = "Yanlış kullanıcı bilgisi...Tekrar deneyiniz...";
+				return View();
+
+			}
+			return View();
         }
 		[HttpGet]
 		public IActionResult Register()
@@ -44,7 +55,7 @@ namespace Graduation_Project.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Register(AppUserRegisterDto appUserRegisterDto)
 		{
-            var user = await _userManager.FindByNameAsync(appUserRegisterDto.Username);
+            var user = await _userManager.FindByNameAsync(appUserRegisterDto.EMail);
 
             if (user != null)  // herhangi bir kayıt varsa
             {
