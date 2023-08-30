@@ -82,7 +82,9 @@ namespace Graduation_Project.Controllers
             if (cart != null)
             {
                 cart.Clear();
-                HttpContext.Session.Set("Cart", cart);
+				HttpContext.Session.SetString("IsCompleted", "false");
+				TempData["IsCompleted"] = false;
+				HttpContext.Session.Set("Cart", cart);
             }
 
             return RedirectToAction("Index", "Cart");

@@ -59,7 +59,7 @@ namespace Graduation_Project.Controllers
                 }
                 _context.Products.Add(product); // ve bunu veritabanına ekledik..
                 _context.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index","Home");
 
             }
 
