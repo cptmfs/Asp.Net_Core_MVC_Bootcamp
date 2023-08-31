@@ -34,7 +34,7 @@ listelerini oluşturabilmesi ve bu listelerin takiplerini yapabilmesidir.
 * Kategori Ekleme / Güncelleme ve Silme işlemlerini gerçekleştirebilir.
 
 
-#İşte Projeden birkaç görsel =>
+# İşte Projeden birkaç görsel =>
 
 ![as0](https://github.com/cptmfs/Asp.Net_Core_MVC_Bootcamp/assets/83764485/76f4de5c-2fff-42cf-8e77-1791f38909ce)
 ![1](https://github.com/cptmfs/Asp.Net_Core_MVC_Bootcamp/assets/83764485/657fc300-ee49-4c4f-91b5-5c89974359ac)
