@@ -28,7 +28,9 @@ namespace Graduation_Project.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult AddCategory(Category category)
+		[ValidateAntiForgeryToken]
+
+		public IActionResult AddCategory(Category category)
         {
             if (ModelState.IsValid)
             {
@@ -41,7 +43,6 @@ namespace Graduation_Project.Controllers
             return View();
         }
 
-        // GET: Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Categories == null)
@@ -57,12 +58,10 @@ namespace Graduation_Project.Controllers
             return View(category);
         }
 
-        // POST: Categories/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Category category)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,CategoryName")] Category category)
         {
             if (id != category.Id)
             {
@@ -92,7 +91,6 @@ namespace Graduation_Project.Controllers
             return View(category);
         }
 
-        // GET: Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Categories == null)
@@ -110,7 +108,6 @@ namespace Graduation_Project.Controllers
             return View(category);
         }
 
-        // POST: Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

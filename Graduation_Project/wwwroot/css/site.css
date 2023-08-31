@@ -18,7 +18,8 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 160px;
+    background-image: url('../images/bg.png');
 }
 
 .add-to-cart-alert-container {
@@ -54,4 +55,11 @@ body {
         transform: translateX(0);
         opacity: 1;
     }
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.025);
+    position: relative;
+    bottom: 0;
 }

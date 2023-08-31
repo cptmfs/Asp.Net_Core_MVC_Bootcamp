@@ -30,15 +30,15 @@ namespace Graduation_Project.Controllers
         public IActionResult AddProduct()
         {
             var categories = _context.Categories.ToList();
-            ViewBag.category = new SelectList(categories, "Id", "CategoryName");//SelectedValue Id olacak Kullanıcı Name 'i  görecek.  
+            ViewBag.category = new SelectList(categories, "Id", "CategoryName"); //SelectedValue Id olacak Kullanıcı Name 'i  görecek.  
             return View();
         }
         [HttpPost]
         public IActionResult AddProduct(ProductViewModel productViewModel)
         {
-            if (ModelState.IsValid) // Validasyon başarılı ise aşağıdaki kaydetmeyi yap..
+            if (ModelState.IsValid)
             {
-                var product = _mapper.Map<Product>(productViewModel); // maplemeyii yaptık
+                var product = _mapper.Map<Product>(productViewModel); 
 
                 if (productViewModel.Image != null && productViewModel.Image.Length > 0)
                 {
@@ -47,17 +47,16 @@ namespace Graduation_Project.Controllers
 
                     var randomImageName = Guid.NewGuid() + Path.GetExtension(productViewModel.Image.FileName);
                     // GetExtension verilen dosyanın uzantısını alır. " nokta Jpg gibi "
-                    //
 
                     var path = Path.Combine(images.PhysicalPath, randomImageName);//images klasörünün fiziksel yolunu al ( C:/Kaptan/github..vs gibi) birde newProduct'ın Image'inin dosya adını al.
 
                     using var stream = new FileStream(path, FileMode.Create); //kaydetmek için stream oluşturmak zorunlu. path = kaydet , den sonra FileMode.Create = eğer yoksa oluştur.
 
                     productViewModel.Image.CopyTo(stream); // resmi wwwroot images'e kaydettik.
-                    product.ProductImage = randomImageName; // maplenmiş product'ın imagepath'ine upload edilen resmin dosya adını verdik.
+                    product.ProductImage = randomImageName; // maplenmiş product'ın ProductImage'ine upload edilen resmin dosya adını verdik.
 
                 }
-                _context.Products.Add(product); // ve bunu veritabanına ekledik..
+                _context.Products.Add(product);
                 _context.SaveChanges();
                 return RedirectToAction("Index","Home");
 
@@ -72,7 +71,7 @@ namespace Graduation_Project.Controllers
         {
             var product = _context.Products.Find(id);
             var categories = _context.Categories.ToList();
-            ViewBag.category = new SelectList(categories, "Id", "CategoryName");//SelectedValue Id olacak Kullanıcı Name 'i  görecek.  
+            ViewBag.category = new SelectList(categories, "Id", "CategoryName"); 
             var mapProduct = _mapper.Map<ProductViewModel>(product);
             return View(mapProduct);
         }
@@ -83,19 +82,17 @@ namespace Graduation_Project.Controllers
             {
                 if (productViewModel.Image != null && productViewModel.Image.Length > 0)
                 {
-                    var root = _fileProvider.GetDirectoryContents("wwwroot"); // Projenin kök klasörünü verir bu "" boş tırnak ile.
-                    var images = root.First(x => x.Name == "Images"); //wwwroot klasöründeki adı images olanı al .
+                    var root = _fileProvider.GetDirectoryContents("wwwroot"); 
+                    var images = root.First(x => x.Name == "Images");
 
                     var randomImageName = Guid.NewGuid() + Path.GetExtension(productViewModel.Image.FileName);
-                    // GetExtension verilen dosyanın uzantısını alır. " nokta Jpg gibi "
-                    //
 
-                    var path = Path.Combine(images.PhysicalPath, randomImageName);//images klasörünün fiziksel yolunu al ( C:/Kaptan/github..vs gibi) birde newProduct'ın Image'inin dosya adını al.
+                    var path = Path.Combine(images.PhysicalPath, randomImageName);
 
-                    using var stream = new FileStream(path, FileMode.Create); //kaydetmek için stream oluşturmak zorunlu. path = kaydet , den sonra FileMode.Create = eğer yoksa oluştur.
+                    using var stream = new FileStream(path, FileMode.Create);
 
-                    productViewModel.Image.CopyTo(stream); // resmi wwwroot images'e kaydettik.
-                    productViewModel.ProductImage = randomImageName; // maplenmiş product'ın imagepath'ine upload edilen resmin dosya adını verdik.
+                    productViewModel.Image.CopyTo(stream); 
+                    productViewModel.ProductImage = randomImageName;
 
                 }
                 var products = _mapper.Map<Product>(productViewModel);

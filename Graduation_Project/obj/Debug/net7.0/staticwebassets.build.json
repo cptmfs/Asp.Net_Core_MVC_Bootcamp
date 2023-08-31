@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rRnI70FKvEVW5/N5/1tXVuW85KPpzlfDRoTrhrRDtYc=",
+  "Hash": "67jpZGfV+6FTATbb2jRkNkCctyLCGO559TN2dL39rYA=",
   "Source": "Graduation_Project",
   "BasePath": "_content/Graduation_Project",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\bebekbezi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\bg.png",
+      "SourceId": "Graduation_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\",
+      "BasePath": "_content/Graduation_Project",
+      "RelativePath": "Images/bg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\bg.png"
     },
     {
       "Identity": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\cif.jpg",

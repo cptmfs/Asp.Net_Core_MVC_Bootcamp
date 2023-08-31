@@ -101,7 +101,7 @@ namespace Graduation_Project.Controllers
             HttpContext.Session.SetString("IsCompleted", "true");
 			TempData["IsCompleted"] = true;
 
-            return RedirectToAction("Index", "Cart"); // Alışveriş sonrası yönlendirme yapabilirsiniz
+            return RedirectToAction("Index", "Cart"); 
         }
 
         [HttpPost]
@@ -111,11 +111,8 @@ namespace Graduation_Project.Controllers
             HttpContext.Session.SetString("IsCompleted", "false");
             TempData["IsCompleted"] = false;
 
-            return RedirectToAction("Index", "Cart"); // Alışveriş sonrası yönlendirme yapabilirsiniz
+            return RedirectToAction("Index", "Cart"); 
         }
-        public PartialViewResult Summary()
-        {
-            return PartialView(GetCart());
-        }
+
     }
 }

@@ -66,13 +66,12 @@ namespace Graduation_Project.Controllers
 
                 return View("Index", filteredResult);
             }
+			else
+			{
+				// Eğer searchString boş ise, tüm ürünleri döndür.
+				return View("Index", products);
+			}
 
-            return View("Index");
-        }
-
-        public PartialViewResult GetCategories()
-        {
-            return PartialView(_context.Categories.ToList());
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

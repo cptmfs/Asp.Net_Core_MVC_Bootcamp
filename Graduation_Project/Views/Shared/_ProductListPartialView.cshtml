@@ -19,10 +19,9 @@
                     @if (User.Identity.IsAuthenticated && User.IsInRole("user"))
                     { <form asp-controller="Cart" asp-action="AddToCart"  method="post">
                         <input type="hidden" name="productId" value="@item.Id" />
-                        <input type="number" name="quantity" value="1" min="1" /> <!-- Quantity input -->
+                        <input type="number" name="quantity" value="1" min="1" />
 
                         <button type="submit" class="btn btn-primary btn-sm float-end add-to-cart-button">
-                            <i class="fas fa-angle-double-right"></i>
                             Ekle
                         </button>                    
                     </form>

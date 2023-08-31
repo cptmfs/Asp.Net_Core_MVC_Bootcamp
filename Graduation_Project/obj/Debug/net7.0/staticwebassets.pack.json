@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Images\\bebekbezi.jpg"
     },
     {
+      "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\bg.png",
+      "PackagePath": "staticwebassets\\Images\\bg.png"
+    },
+    {
       "Id": "C:\\Users\\KAPTAN\\Documents\\GitHub\\Asp.Net_Core_MVC_Bootcamp\\Graduation_Project\\wwwroot\\Images\\cif.jpg",
       "PackagePath": "staticwebassets\\Images\\cif.jpg"
     },

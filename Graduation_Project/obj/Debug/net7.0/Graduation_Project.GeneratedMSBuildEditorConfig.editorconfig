@@ -28,10 +28,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Cart/Summary.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxTdW1tYXJ5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Categories/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBZGRDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,24 +44,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Home/GetCategories.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRDYXRlZ29yaWVzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Home/NewCategories.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdDYXRlZ29yaWVzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Home/NewProduct.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdQcm9kdWN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Home/UpdateProduct.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Product/AddProduct.cshtml]
@@ -84,18 +64,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Shared/_AddProductPartialView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRQcm9kdWN0UGFydGlhbFZpZXcuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Shared/_CartPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJ0UGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Shared/_CategoriesPartialView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yaWVzUGFydGlhbFZpZXcuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Shared/_IdentityPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JZGVudGl0eVBhcnRpYWxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,14 +78,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/ShoppingList/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdMaXN0XENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/ShoppingList/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdMaXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KAPTAN/Documents/GitHub/Asp.Net_Core_MVC_Bootcamp/Graduation_Project/Views/_ViewImports.cshtml]

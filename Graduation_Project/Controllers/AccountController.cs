@@ -40,11 +40,14 @@ namespace Graduation_Project.Controllers
 					{
 						return RedirectToAction("Index", "Home");
 					}
+
 				}
-				TempData["Error"] = "Yanlış kullanıcı bilgisi...Tekrar deneyiniz...";
+				TempData["Error"] = "Kullanıcı adı yada şifre hatalı. Tekrar deneyiniz..";
 				return View();
 
 			}
+			TempData["Error"] = "Kullanıcı adı yada şifre hatalı. Tekrar deneyiniz..";
+
 			return View();
         }
 		[HttpGet]
@@ -92,7 +95,6 @@ namespace Graduation_Project.Controllers
 			return View();
 		}
 
-        // Logout Bölümü (göndericek olan yer Logout Butonu)
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
